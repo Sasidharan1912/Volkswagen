@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volkswagon Model</title>
+</head>
+<body>
+    <style>  
+        .main{
+            position: fixed;
+            top:20px;
+            left:900px;
+            z-index:1;
+            
+        }
+        .sub{
+           
+            position:fixed;
+            top:230px;
+            left:1150px;
+            font-size: xx-large;
+            color:crimson;
+            z-index:1;
+            
+        
+        }
+        .heading{
+            color:blue;
+            z-index:-1;
+        }       
+        .Taigun{
+            position:relative;
+            
+    
+        }
+        .TaigunSport img{ 
+            position:relative;
+            width: 300px;
+            height:240px;
+            
+        }
+        .TaigunChrome img{ 
+            position:relative;
+            width: 300px;
+            height:240px;
+            
+        }
+        .image1{
+            display:none;
+        }
+        .image2{
+            display:none;
+        }
+        .image3{
+            display:none;
+        }
+        button:hover ~.image1{
+            position:absolute;
+            display:inline;
+            height: 200px;
+            width:300px;
+            overflow:auto;
+            padding:20px;
+            top:-10px;
+            left:-10px;
+            text-align: center;
+           
+    
+        }
+        button:hover ~.image2{
+            position:absolute;
+            display:inline;
+            height: 260px;
+            overflow:auto;
+            padding:10px;
+            top:530px;
+            left:0px;
+            background-color:transparent;
+            text-align: center;
+            
+    
+        }
+        button:hover ~.image3{
+            position:absolute;
+            display:inline;
+            height: 270px;
+            overflow:auto;
+            padding:10px;
+            top:980px;
+            left:0px;
+            background-color:transparent;
+            text-align: center;
+        }
+            
+    
+        
+        .background{
+            position:fixed;
+            height:810px;
+            width:1500px;
+            z-index: -1;
+            left:-10px; 
+            top:-10px;
+        }
+        section ul {
+    
+            list-style-type:none;
+            display:flex;
+            overflow:auto;
+            height:270px;
+            color:white;
+            
+
+        }
+        img{
+            display: flex;
+            height:200px;
+            padding: 10px;
+            }
+        section ul .TI{
+            display: block;
+            text-align: center;
+        }
+        footer{
+            position:relative;
+            color:black;
+            padding:10px;
+            text-align: center;
+        }
+        .home img{
+            position:relative;
+            height:20px;
+            z-index:0;
+        }
+        @media(max-width:516px){
+            .background{
+                position: fixed;
+                height:100%;
+                width:100%;
+            }
+            .main{
+            position: fixed;
+            top:100px;
+            left:300px;
+            z-index:-1;
+            height:80px;
+            
+        }
+        .sub{
+           
+            position:fixed;
+            top:170px;
+            left:370px;
+            font-size: medium;
+            color:crimson;
+            z-index:-1;
+            
+        
+        }
+        }
+    </style>
+    <div>
+        <img class="background" src="vw bg.avif">
+    <a class="home" href="Volkswagon Home.html"><img src="vw hi.png"></a>
+    <img class="main" src="vw_logo-removebg-preview.png">
+    <p class="sub"><b>Drive with your Love</b></p>
+    <h1 class="heading">Taigun models</h1>
+    <div class="Taigun">
+    <button><img src="https://assets.volkswagen.com/is/image/volkswagenag/1%20Taigun_Gallery%201600x1200-2?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTY4MCZoZWk9NTEwJmFsaWduPTAuMDAsMC4wMCZiZmM9b2ZmJjdjN2E="></button>
+    <h2>Taigun</h2>
+    <h1>₹ 10.99 Lakh</h1>
+    <div class="image1">
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/1%20Taigun_Gallery%201600x1200-2?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTY4MCZoZWk9NTEwJmFsaWduPTAuMDAsMC4wMCZiZmM9b2ZmJjdjN2E=">
+        <p>Taigun</p>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/Rear-View-Camera?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg==">
+        <p>Rear view camera with guidance</p>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/Infinity-LED-Tail-Lamp?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg==">
+        <p>LED Tail Lamp</p>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/LED-Headlamps-with-DRL?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg==">
+        <p>LED Headlamps</p>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/R17-alloy-wheels?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg==">
+        <p>R17 Alloy Wheels</p>
+    </div>
+    <a href="Booking.html"><button>Book Online</button></a>
+    <a href="Test Drive.html"><button>Book Test Drive</button></a>
+</div><br><br>
+
+<!--  -->
+
+<div class="TaigunSport">
+    <button><img src="https://assets.volkswagen.com/is/image/volkswagenag/taigun-sport?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTk2MCZoZWk9NTQwJmFsaWduPTAuMDAsMC4wMCZiZmM9b2ZmJjRhNzg="></button>
+    <h2>Taigun Sport</h2>
+    <h1>₹ 14.08 Lakh - ₹ 18.53 Lakh</h1>
+    <div class="image2">
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/taigun-sport?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTk2MCZoZWk9NTQwJmFsaWduPTAuMDAsMC4wMCZiZmM9b2ZmJjRhNzg=">
+        <p>Taigun Sport</p><br>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/Rear-View-Camera?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg==">
+        <p>Rear view camera with guidance</p><br>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/exteriors_1?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTE2MDAmaGVpPTkwMCZhbGlnbj0wLjAwLDAuMDAmYmZjPW9mZiY5NGJh">
+        <p>Exterior</p><br>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/interiors?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTE2MDAmaGVpPTkwMCZhbGlnbj0wLjAwLDAuMDAmYmZjPW9mZiY5NGJh">
+        <p>Interior</p><br>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/R17-alloy-wheels?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg==">
+        <p>R17 Alloy Wheels</p><br>
+    </div>
+    <a href="Booking.html"><button>Book Online</button></a>
+    <a href="Test Drive.html"><button>Book Test Drive</button></a>
+</div><br><br>
+
+<!--  -->
+
+<div class="TaigunChrome">
+    <button><img src="https://assets.volkswagen.com/is/image/volkswagenag/TaigunChrome?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg=="></button>
+    <h2>Taigun Chrome</h2>
+    <h1>₹ 14.08 Lakh - ₹ 18.53 Lakh</h1>
+    <div class="image3">
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/TaigunChrome?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg==">
+        <p>Taigun Chrome</p><br>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/Speakers?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg==">
+        <p>Speakers</p><br>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/exteriors_1?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTE2MDAmaGVpPTkwMCZhbGlnbj0wLjAwLDAuMDAmYmZjPW9mZiY5NGJh">
+        <p>Exterior</p><br>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/interiors?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTE2MDAmaGVpPTkwMCZhbGlnbj0wLjAwLDAuMDAmYmZjPW9mZiY5NGJh">
+        <p>Interior</p><br>
+        <img src="https://assets.volkswagen.com/is/image/volkswagenag/Electric-Sunroof?Zml0PWNyb3AsMSZmbXQ9d2VicCZxbHQ9Nzkmd2lkPTEyMDAmaGVpPTEyMDAmYWxpZ249MC4wMCwwLjAwJmJmYz1vZmYmNTA0Mg==">
+        <p>Sunroof</p><br>
+    </div>
+    <a href="Booking.html"><button>Book Online</button></a>
+    <a href="Test Drive.html"><button>Book Test Drive</button></a>
+</div><br><br>
+
+    
+    <!--  -->
+
+    
+    
+    <section>
+
+        <ul>
+            <li class="TI"><img src="Airbag-4.webp">6-Airbags</li>
+            <li class="TI"><img src="Hill-Hold.webp">Hill Hold Control</li> 
+            <li class="TI"><img src="gt-badging.webp">GT Badging</li>
+            <li class="TI"><img src="Ambient_Light.webp">Ambient Lightning</li>
+            <li class="TI"><img src="R17-alloy-wheels.webp">R17 Alloy Wheels</li>
+            <li class="TI"><img src="boot-space-1.webp">Boot Space</li>
+            <li class="TI"><img src="Folding-rear-backrest.webp">R17 Rear Seat Fold</li>
+            <li class="TI"><img src="Electric-Sunroof.webp">Sunroof</li>
+            <li class="TI"><img src="Speakers.webp">6-Speakers</li>
+            <li class="TI"><img src="taigun-infotainment.webp">Infotainment</li>
+            <li class="TI"><img src="Wireless-Mobile-Charging.webp">Wireless Charging</li>
+            <li class="TI"><img src="my-vw-app-720x720-r.webp">Volkswagon App</li>
+
+
+
+            
+
+
+
+
+        </ul>
+    </section>
+    <footer>
+        &copy<b>2024 Rights Reserved</b>
+    </footer>
+</div>
+</div>
+</body>
+</html>

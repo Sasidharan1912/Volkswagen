@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User</title>
+</head>
+<body>
+    <style>
+        .backward img{
+            position:absolute;
+            height:30px;
+            width:30px;
+            z-index:1;
+            
+
+        }
+        .Topic{
+            position:absolute;
+            font-size: xx-large;
+            font-style: italic;
+            left:950px;
+            top:250px;
+            color:brown;
+            text-shadow: 1px 3px 1px orange;
+        }        
+        .background{
+            position:absolute;
+            left:0px;
+            top:0px;
+            z-index:-1;
+            height:740px;
+            width:1485px;
+        }
+        .logo{
+            position:absolute;
+            height:200px;
+            top:60px;
+            left:1000px;
+        }
+        label{
+            color:black;
+        }
+        h1{
+            position: absolute;
+            top:30px;
+            left:600px;
+        }
+        .login{
+            position:absolute;
+            top:220px;
+            left:130px;
+        }
+        @media(max-width:516px){
+            .background{
+                width:100%;
+                height:100%;
+            }
+            .login{
+                top:250px;
+                left:70px;
+            }
+            h1{
+                top:170px;
+                left:150px;
+                color:grey;
+            }
+            .logo{
+                left:220px;
+                top:80px;
+                height:100px;
+            }
+            .Topic{
+                left:150px;
+                top:10px;
+                color:green;
+            }
+        }
+    </style>
+    <a  class="backward" href="Volkswagon Home.html"><img src="vw hi.png"></a>
+
+    <b class="Topic">Brand Never Goes Out of 'Style...</b>
+    <img class="logo" src="vw_logo-removebg-preview.png">
+    <img class="background" src="vw lw.jpeg">
+    <h1>New User</h1>
+    <div class="login">
+        <form id="login">
+            <b><label>Username</label><br>
+            <input type="text" placeholder="Enter your Name"required><br><br>
+            <label>New Password</label><br>
+            <input type="text,number" placeholder="Enter New Password"required><br><br>
+            <label>Confirm Password</label><br>
+            <input type="text,number" placeholder="Enter Confirm Password"required><br><br>
+            <input type="checkbox"required>
+            <span>Remember me</span><br><br>
+            <a href="Volkswagon.html"><input type="Submit"value="Register"></a>
+            <div class="Sign in"><br>
+                <a href="Volkswagon Login.html">Already have an account-Sign in</a>
+            </div></b>
+        </form>
+    </div>
+</body>
+</html>
